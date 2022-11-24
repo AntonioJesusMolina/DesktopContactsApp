@@ -6,14 +6,21 @@
         xmlns:local="clr-namespace:DesktopContactsApp"
         mc:Ignorable="d"
         Title="NewContactWindow" 
+        WindowStyle="None"
+        ResizeMode="NoResize"
         Height="450" 
         Width="800">
     <Grid>
         <StackPanel Margin="10">
+            <TextBlock Text="Nombre:"/>
             <TextBox x:Name="NameTextBox"
                      Margin="0,0,0,5"/>
+            
+            <TextBlock Text="Email:"/>
             <TextBox x:Name="EmailTextBox"
                      Margin="0,0,0,5"/>
+            
+            <TextBlock Text="Telefono:"/>
             <TextBox x:Name="PhoneTextBox"
                      Margin="0,0,0,5"/>
             <Button Content="Save"
